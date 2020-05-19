@@ -1,0 +1,50 @@
+<!DOCTYPE html><html><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 2.21.35"/><title data-react-helmet="true"></title><link rel="icon" href="/favicon-32x32.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=edf3d310d67f8284a562bc3a58c3e761"/><link as="script" rel="preload" href="/webpack-runtime-8f413857dcdf170435e2.js"/><link as="script" rel="preload" href="/framework-5f60671d002a96dabc3f.js"/><link as="script" rel="preload" href="/app-b870892c1370a5ffda59.js"/><link as="script" rel="preload" href="/component---src-templates-post-template-tsx-c79fc2113717a6ba0766.js"/><link as="fetch" rel="preload" href="/page-data/estruturas-de-dados/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div class="blog-post-container"><div class="blog-post"><h1>Estruturas de dados</h1><div class="blog-post-content"><h2>O que são estruturas de dados? Onde vivem? De que se alimentam?</h2>
+<p>O exercício da programação pode ser pensado fundamentalmente como
+uma forma de manipulação de informação. Mais especificamente, todo
+programa tem o objetivo de implementar alguma <strong>computação</strong>: Uma
+transformação de algum dado de entrada em algum dado de saída.</p>
+<p>Todavia, a computação que um programa implementa pode ser arbitrariamente
+complexa e exigir qualquer número de computações intermediárias.</p>
+<p>Alguns exemplos:</p>
+<ul>
+<li>Em um banco de dados, ao responder a um pedido, podemos precisar percorrer
+grande quantidade de dados armazenados para construir a resposta.</li>
+<li>Em um compilador, precisamos saber todas as variáveis que existem em um
+determinado ponto do programa para gerar o código de saída corretamente.</li>
+<li>Em um sistema web, podemos precisar combinar dados armazenados em vários
+bancos de dados diferentes para construir uma resposta.</li>
+<li>Em um jogo, é necessário, a cada novo frame, percorrer o estado de dezenas
+de objetos com os quais o jogador pode interagir.</li>
+<li>Em um sistema estatístico, precisamos armazenar dados de várias observações
+de algum conjunto de variáveis e depois percorrê-los para extrair dados
+agregados dessas observações.</li>
+</ul>
+<p>O que todos os exemplos dados têm em comum é que, para executar nossa
+computação, precisamos de uma forma de armazenar informações para
+posteriormente acessá-las.</p>
+<p>Não apenas isso, mas precisamos que esse acesso seja feito de forma
+<strong>eficiente</strong>:</p>
+<ul>
+<li>Se o banco de dados demorar demais para percorrer as informações armazenadas,
+todo o sistema que depende dele irá demorar para responder.</li>
+<li>Se o compilador demorar para checar se uma variável existe ou não, a
+compilação do seu programa irá demorar horas.</li>
+<li>Se o sistema web demorar para buscar os dados, o cliente que acessa ele
+(seja uma página web, um app ou outro sistema) irá deixar seu usuário esperando.</li>
+<li>Se o jogo demorar para calcular todas as interações do jogador, nunca iremos
+atingir aqueles deliciosos 60 FPS.</li>
+<li>Se o sistema estatístico demorar para percorrer os dados, o pobre do cientista
+vai passar um tempão esperando os resultados do seu modelo.</li>
+</ul>
+<p>A solução de todas essas questões passa pelas estruturas de dados. Uma estrutura
+de dados define um formato de armazenamento, gestão e organização de dados que
+permite que acesso e modificação eficientes.</p>
+<p>Não existe uma única estrutura de dados que resolva todos os casos de uso.
+Para cada padrão de acesso à informação, é necessária uma forma diferente de
+armazenamento. Muita vezes não existe um único formato que seja "o melhor" -
+é necessária uma análise cuidadosa dos prós e contras de cada representação.</p>
+<p>Iremos analisar diversas estruturas de dados para entender os prós e contras
+de cada uma e quando o uso de cada uma é adequado.</p>
+<ul>
+<li><a href="#">Listas encadeadas (EM CONSTRUÇÃO)</a></li>
+</ul></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/estruturas-de-dados/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-b870892c1370a5ffda59.js"],"component---src-pages-404-js":["/component---src-pages-404-js-5d1e1b7f5e50248cf089.js"],"component---src-pages-index-tsx":["/component---src-pages-index-tsx-eebe1ad9d2bf27674ef5.js"],"component---src-templates-post-template-tsx":["/component---src-templates-post-template-tsx-c79fc2113717a6ba0766.js"]};/*]]>*/</script><script src="/component---src-templates-post-template-tsx-c79fc2113717a6ba0766.js" async=""></script><script src="/app-b870892c1370a5ffda59.js" async=""></script><script src="/framework-5f60671d002a96dabc3f.js" async=""></script><script src="/webpack-runtime-8f413857dcdf170435e2.js" async=""></script></body></html>
